@@ -75,3 +75,12 @@ input {
 .sign:active {
     background-color: #e05fd5;
 }
+.forgets:hover {
+    background: linear-gradient(#e6e6f0,#b9b9f0);
+}
+.login1:hover {
+    background: linear-gradient(#e6e6f0,#b9b9f0);
+}
+.heres:hover {
+    background: linear-gradient(#e6e6f0,#b9b9f0);
+}
