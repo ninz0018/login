@@ -13,16 +13,14 @@
                 Log-in Form 
             </div>    
             <div class="row1">
-                <button class="sign" onclick="clk()">Signin</button>
-                <button class="signup" onclick="sig()">Signup</button>
+                <button class="action" onclick="clk(this)">Signin</button>
+                <button class="action" onclick="clk(this)">Signup</button>
             </div>
-            <Input></Input>
-            <Input></Input>
-            <div class="Forget">
-                <button class="forgets" onclick="forget()">Forget Password</button>
-            </div>
+            <Input id="user" placeholder="Email Address">
+            <Input id="user" placeholder="Password">
+            <button class="forg1" onclick="clk(this)">Forget Password</button>
             <div class="but">
-                <button class="login1" onclick="pasok()">Log-in</button>
+                <button class="login1 action" onclick="pasok()">Log-in</button>
             </div>
             <div class="row2">
                 Not a Member?<button class="heres" onclick="ign()">Signup here!</button>
