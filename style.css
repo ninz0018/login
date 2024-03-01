@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(#e05fd5,#00d4ff);
+}
+#log {
+    border: 3px solid rgb(245, 183, 183);
+  background: linear-gradient(#7ae5f9,#99b0dd);
+    width: 244px;
+    height: 262px;
+    margin: 40%;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.form {
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.row1 button {
+    width: 115px;
+    height: 23px;
+    margin-left: 3px;
+    border-radius: 10px;
+}
+.Email .pass {
+    margin-top: 4px;
+    margin-left: 3px;
+}
+input {
+    border-radius: 10px;
+    margin-left: 7px;
+    margin-top: 4px;
+    width: 221px;
+    height: 18px;
+}
+.Forget button {
+    background: linear-gradient(#f97ac7,#ff0081);
+    margin-top: 7px;
+    width: 133px;
+    margin-left: 7px;
+    opacity: .5;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.but button {
+    margin-top: 7px;
+    width: 218px;
+    margin-left: 12px;
+    height: 48px;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#e05fd5,#ff0081);
+    border-radius: 20px;
+}
+.row2 button {
+    background: linear-gradient(#ff0081,#f97ac7);
+    margin-top: 18px;
+    width: 125px;
+    margin-left: 2px;
+    opacity: .5;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+}
+.row2 {
+    margin-left: 8px;
+    font-style: italic;
+}
+.sign:hover {
+    background-color: #f97ac7;
+}
+.signup:hover {
+    background-color: #e05fd5;
+}
+.sign:active {
+    background-color: #e05fd5;
+}
