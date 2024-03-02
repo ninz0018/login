@@ -1,0 +1,20 @@
+body {
+    height: 613px;
+    background: linear-gradient(#7ae5f9,#ff0081);
+}
+.success {
+    width: 529px;
+    height: 40px;
+    margin-top: 133px;
+    margin-left: 35%;
+    border-radius: 10px;
+    background-color: rgb(123, 229, 255);
+    text-align: center;
+}
+.rg {
+    color: red;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
