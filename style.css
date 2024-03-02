@@ -5,7 +5,7 @@ body {
     border: 3px solid rgb(245, 183, 183);
     background: linear-gradient(#7ae5f9,#99b0dd);
     width: 244px;
-    height: 262px;
+    height: 275px;
     margin: 40%;
     margin-top: 100px;
     border-radius: 20px;
@@ -43,7 +43,18 @@ input {
     color: rgb(255, 41, 41);
     font-style: italic;
 }
-.but button {
+.heres {
+    margin-top: 7px;
+    width: 114px;
+    margin-left: 12px;
+    height: 19px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#f37ce9, #ff86c3);
+    border-radius: 20px;
+    font-style: italic;
+}
+.but {
     margin-top: 7px;
     width: 218px;
     margin-left: 12px;

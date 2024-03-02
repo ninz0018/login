@@ -20,23 +20,20 @@
             <button class="signup action" onclick="clk(this)">Signup</button>
         </a>
         </div>
-                <Input placeholder="Username" >
-                <Input placeholder="Password">
-            <div class="Forget">
+        <form id="loginForm" onsubmit="return validateForm()">
+            <input placeholder="Username" type="text" id="username" name="username" required><br><br>
+            
+            <input placeholder="Password" type="password" id="password" name="password" required><br><br>
+            <div>
                 <a class="forg1" href="/forget/forgetpas.html">Forget Password</a>
             </div>
-            <div class="but">
-                <a href="http://www.facebook.com">
-                <button class="login1" onclick="pasok()">Log-in</button>
-            </a>
-            </div>
-            <div class="row2">
-                Not a Member? <a href="/Signup/_Signup.html">
-                    <button class="heres" onclick="ign()">Signup here!</button>
-                    </a>
-            </div>
-
+            <button class="but" type="submit">Login</button>
+        </form>
+        <div>
+            Not a Member? <a href="/Signup/_Signup.html">
+                <button class="heres" onclick="ign()">Signup here!</button>
         </div>
-
-</body>
+    </div>
+        </div>
+    </body>
 </html>
