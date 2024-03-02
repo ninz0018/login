@@ -7,7 +7,7 @@
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="javascript.js"></script>
+    <script src="script.js"></script>
         <div id="log">
             <div class="form">
                 Signup Form
@@ -20,12 +20,12 @@
             <button class="signup action" onclick="clk(this)">Signup</button>
         </a>
         </div>
-                <Input placeholder="Emmail">
-                <Input placeholder="Password">
-                <Input placeholder="Repeat Password">
+                <Input placeholder="Emmail" type="text" id="username">
+                <Input placeholder="Password" type="password" id="password">
+                <Input placeholder="Repeat Password" type="rpassword" id="rpassword">
         <div class="but">
-                <a href="/Register/register.html">
-                <button class="login1" onclick="pasok()">Register</button>
+            <a href="/Register/register.html">
+            <button class="login1" onclick="signUp()">Register</button>
             </a>
             </div>
         </div>
