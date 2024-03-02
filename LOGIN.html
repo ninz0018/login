@@ -11,27 +11,30 @@
         <div id="log">
             <div class="form">
                 Log-in Form 
-            </div>    
+            </div>   
+
             <div class="row1">
                 <a href="/LOGIN.html">
-                <button class="sign action" onclick="clk(this)">Signin</button>
-            </a>
-            <a href="Signup/_Signup.html">
-            <button class="signup action" onclick="clk(this)">Signup</button>
-        </a>
-        </div>
-        <form id="loginForm" onsubmit="return validateForm()">
-            <input placeholder="Username" type="text" id="username" name="username" required><br>
+                    <button class="sign action" onclick="clk(this)">Signin</button>
+                </a>
+                <a href="Signup/_Signup.html">
+                    <button class="signup action" onclick="clk(this)">Signup</button>
+                </a>           
+            </div>
+
+            <form id="loginForm" onsubmit="return validateForm()">
+                <input placeholder="Username" type="text" id="username" name="username" required><br>
             
-            <input placeholder="Password" type="password" id="password" name="password" required><br>
-            <button class="but" type="submit">Login</button>
+                <input placeholder="Password" type="password" id="password" name="password" required><br>
+                <a class="forg1" href="/forget/forgetpas.html">Forget password</a><br><br>
+
+                <button class="but" type="submit">Login</button>
              
-        </form>
-        <div>
-            Not a Member? <a href="/Signup/_Signup.html">
-                <button class="heres" onclick="ign()">Signup here!</button>
-        </div>
-    </div>
+            </form>
+                <div>
+                    Not a Member? <a href="/Signup/_Signup.html">
+                    <button class="heres" onclick="ign()">Signup here!</button>
+                </div>
         </div>
     </body>
 </html>
