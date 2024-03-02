@@ -21,6 +21,8 @@ function signUp(username, password) {
 
 // Example code for sign-in
 function signIn(username, password) {
+    let storedData = localStorage.getItem("username, password");
+    console.log(storedData);
     // Retrieve the stored hashed password associated with the username
     const storedHashedPassword = getUserHashedPassword(username); // Hypothetical function
     
